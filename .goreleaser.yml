@@ -11,9 +11,6 @@ builds:
     id: "arct"
     dir: .
     main: ./cmd/arc
-#dockers:
-#- image_templates: ["ghcr.io/RustedPipe/arct:{{ .Version }}"]
-#  dockerfile: Dockerfile
 nfpms:
 - maintainer: Lisa Brown <lbrown@rustedpipe.xyz>
   description: Arct log processing utility.
