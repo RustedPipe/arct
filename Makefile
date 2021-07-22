@@ -15,6 +15,7 @@ GOARCH    := amd64
 VERSION   := 0.1.0
 
 # Let's parse make target comments prefixed with ## and generate help output for the user. 
+# Let's parse make target comments prefixed with ## and generate help output for the user. 
 define PRINT_HELP_PYSCRIPT
 import re, sys
 
