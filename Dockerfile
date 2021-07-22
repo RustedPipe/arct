@@ -1,4 +1,4 @@
 FROM scratch
-COPY example /usr/bin/arct
+COPY arct /usr/bin/arct
 ENTRYPOINT ["/usr/bin/arct"]
 
