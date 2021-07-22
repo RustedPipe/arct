@@ -40,8 +40,8 @@ jobs:
         uses: docker/login-action@v1
         with:
           registry: ghcr.io
-          username: ${{ github.repository_owner }}
-          password: ${{ secrets.GH_TOKEN_RUSTED_PIPE }}
+          username: qba73
+          password: ${{ secrets.GH_RUSTED }}
       -
         name: Run GoReleaser
         uses: goreleaser/goreleaser-action@v2
